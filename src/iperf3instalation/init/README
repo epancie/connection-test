@@ -1,0 +1,13 @@
+This allow to run as daemon the iperf3
+
+Modify the iperf3d.conf with the interface name (ifconfig) that you want use to bind the iperf3.
+Then copy the follows
+
+$ sudo cp iperf3d /etc/init.d/
+$ sudo cp iperf3d.conf /etc/default/
+
+start
+
+$ sudo service iperf3d {start|stop|status|restart|force-reload}
+
+
