@@ -1,3 +1,15 @@
+1- Instalar driver para dongle
+
+2- OpenVPN
+
+3- speedtest-cli
+
+4- iperf3
+
+5- ssh sin login desde server
+
+6- tests
+
 
 sudo rm /etc/wpa_supplicant/wpa_supplicant.conf
 
